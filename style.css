@@ -91,10 +91,9 @@ main {
 }
 
 .main-content,
-.quote-container,
-footer {
+.quote-container {
     text-align: center;
-    padding: 50px 20vw;
+    padding: 50px 25vw;
 }
 
 .main-title {
@@ -148,4 +147,43 @@ blockquote {
 .quote-container>figcaption {
     font-weight: bolder;
     text-align: right;
+}
+
+.sign-up-box-container {
+    padding: 50px 20vw;
+}
+
+.sign-up-box {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    padding: 50px 80px;
+    border-radius: 10px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-up-button {
+    padding: 5px 30px;
+    border: 2px solid #E5E7EB;
+    border-radius: 6px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 20vw;
+    color: #F9FAF8;
 }
